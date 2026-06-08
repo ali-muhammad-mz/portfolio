@@ -984,6 +984,7 @@ img {
   display: grid;
   gap: 16px;
   max-width: 880px;
+  margin-inline: auto;
 }
 
 .skill-group,
