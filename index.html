@@ -1,545 +1,560 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ali Muhammad — Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ali Muhammad - Software and AI Engineer in Bavaria, Germany. Portfolio of backend, cloud, LLM, RAG, agentic AI, and web engineering work." />
+  <title>Ali Muhammad | Software & AI Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
-  </head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
 <body>
-
-  <!-- NAV -->
-  <nav class="nav">
-    <div class="nav-logo">Ali Muhammad</div>
+  <nav class="nav" aria-label="Primary navigation">
+    <a class="nav-logo" href="#home" aria-label="Ali Muhammad home">
+      <span>AM</span>
+      Ali Muhammad
+    </a>
     <ul class="nav-links">
-      <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
-      <li><a href="#skills">Skills</a></li>
       <li><a href="#education">Education</a></li>
-      <li><a href="#certification">Certification</a></li>
-      <li><a href="#language">Languages</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#languages">Languages</a></li>
       <li><a href="#contact" class="nav-cta">Contact</a></li>
     </ul>
-    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </nav>
 
-  <!-- HERO -->
-  <section class="hero" id="about">
-    <div class="hero-inner">
-      <div class="hero-tag">Available for opportunities · Bavaria, Germany</div>
-      <h1>Hello, I'm<br>Ali Muhammad</h1>
-      <p class="hero-sub">Software & AI Engineer</p>
-      <p class="hero-bio">
-        I have 2+ years of experience building software products — from web applications 
-        and backend systems to AI-powered features.<br>Currently pursuing my Master's in 
-        AI Engineering at the University of Passau, Germany.
-      </p>
-      <div class="hero-btns">
-        <a href="https://github.com/ali-muhammad-mz" target="_blank" rel="noopener noreferrer" class="btn-primary">
-          View GitHub
-        </a>
-        <a href="mailto:ali.moaiz001@gmail.com" class="btn-outline">
-          Get In Touch
-        </a>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="mesh-line"></div>
+        <div class="mesh-line"></div>
+        <div class="mesh-line"></div>
       </div>
-    </div>
-    <div class="hero-cards">
-      <div class="stat-card">
-        <div class="stat-num">2+</div>
-        <div class="stat-label">Years of Experience</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-num">3</div>
-        <div class="stat-label">Companies Worked At</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-num">Master</div>
-        <div class="stat-label">AI Engineering (in progress)</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHAT I DO -->
-  <section class="what-section">
-    <div class="container">
-      <div class="what-grid">
-        <div class="what-card">
-          <div class="what-icon">💻</div>
-          <h3>Software Engineering</h3>
-          <p>Building reliable backend systems, REST APIs, web apps, and cloud infrastructure. Experienced across fintech, healthtech, and enterprise platforms.</p>
-        </div>
-        <div class="what-card highlight">
-          <div class="what-icon">🤖</div>
-          <h3>AI Engineering</h3>
-          <p>Integrating AI into real products — building pipelines that use large language models, smart search, and automated workflows that actually work in production.</p>
-        </div>
-        <div class="what-card">
-          <div class="what-icon">☁️</div>
-          <h3>Cloud & DevOps</h3>
-          <p>Deploying and managing applications on AWS and Azure, working with Docker, CI/CD pipelines, and keeping systems secure and scalable.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section class="section" id="experience">
-    <div class="container">
-      <h2 class="section-title">Work Experience</h2>
-      <p class="section-sub">Where I've worked and what I built</p>
-
-      <div class="jobs">
-
-        <div class="job-card">
-          <div class="job-left">
-            <div class="job-date">Nov 2025 – Mar 2026</div>
-            <div class="job-loc">UK · Remote</div>
-            <div class="job-badge ai">AI Focus</div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Bavaria, Germany</p>
+          <h1>I build RESTful microservices to custom AI Agents.</h1>
+          <p class="hero-lead">
+            I am Ali Muhammad, a Software & AI Engineer based in Bavaria, Germany, currently pursuing an M.Sc. in Artificial Intelligence Engineering at the University of Passau. I build microservices, APIs, web applications, cloud-ready systems, and practical AI solutions such as RAG and Agents using n8n & Python.
+          </p>
+          <div class="hero-stack" aria-label="Engineering focus areas">
+            <span>Backend</span>
+            <span>Full-stack</span>
+            <span>Cloud-ready apps</span>
+            <span>Agentic AI workflows</span>
           </div>
-          <div class="job-right">
-            <div class="job-title-row">
-              <h3>Software Engineer</h3>
-              <span class="job-company">Guru Group LLC</span>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" href="mailto:ali.moaiz001@gmail.com">Email me</a>
+          </div>
+        </div>
+
+        <aside class="profile-panel reveal" aria-label="Profile summary">
+          <div class="hero-focus-card">
+            <span class="focus-kicker">What I work on</span>
+            <div class="focus-list">
+              <div>
+                <strong>Software engineering</strong>
+                <span>JavaScript/TypeScript, Node.js, Express.js, React, Next.js, Angular, C# .NET</span>
+              </div>
+              <div>
+                <strong>Backend, data & cloud</strong>
+                <span>Python, FastAPI, Flask, Spring Boot, PostgreSQL, MongoDB, AWS, Azure, Docker</span>
+              </div>
+              <div>
+                <strong>AI-assisted delivery</strong>
+                <span>LLMs, RAG, n8n, Claude Code, Google Antigravity, Cursor, Codex</span>
+              </div>
             </div>
-            <ul class="job-list">
-              <li>Built an Agentic AI pipeline using LLMs to automatically generate clinical summaries and reduce documentation time by 50%</li>
-              <li>Developed a RAG pipeline with vector search and LLMs for context-aware clinical decision support</li>
-              <li>Connected microservices using RabbitMQ and event-driven architecture to improve real-time inference performance by 35%</li>
+          </div>
+          <div class="profile-card">
+            <div class="avatar" aria-hidden="true">AM</div>
+            <div>
+              <h2>Ali Muhammad</h2>
+              <p>2+ years engineering experience · M.Sc. AI Engineering</p>
+            </div>
+          </div>
+          <div class="profile-links">
+            <a href="https://github.com/ali-muhammad-mz" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/ali-muhammad-665451374" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+<section class="section contrast" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Professional background</p>
+          <h2>Experience in fintech, healthtech, AI products, and backend systems.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="job reveal">
+            <div class="job-meta">
+              <span>Nov 2025 - Mar 2026</span>
+              <span>UK · Remote</span>
+            </div>
+            <div class="job-body">
+              <h3>Software Engineer · Guru Group LLC</h3>
+              <p>Built an Agentic AI pipeline using LLMs to automatically generate clinical summaries and reduce documentation time by 50%</p>
+              <p>Developed a RAG pipeline with vector search and LLMs for context-aware clinical decision support</p>
+              <p>Connected microservices using RabbitMQ and event-driven architecture to improve real-time inference performance by 35%</p>
+              <div class="tags"><span>LLMs</span><span>RAG</span><span>RabbitMQ</span><span>Python</span><span>React</span></div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-meta">
+              <span>Aug 2025 - Oct 2025</span>
+              <span>Pakistan · On-site</span>
+            </div>
+            <div class="job-body">
+              <h3>Software Engineer · Avanza Solutions</h3>
+              <p>Built a custom MCP Server to expose internal financial data as structured tool calls for LLM agents, reducing AI integration time by 45%</p>
+              <p>Optimized SQL schemas and queries for financial transaction systems, reducing API response latency by 35%</p>
+              <p>Migrated a legacy ASP.NET escrow platform to React.js and Node.js using Clean Architecture, modernizing real estate financial workflows</p>
+              <div class="tags"><span>MCP</span><span>Node.js</span><span>React</span><span>SQL</span><span>Azure</span></div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-meta">
+              <span>Jun 2023 - Jul 2025</span>
+              <span>Pakistan · On-site</span>
+            </div>
+            <div class="job-body">
+              <h3>Software Engineer · Unikrew Solutions</h3>
+              <p>Engineered cron-based workflows in Node.js microservices to automate recurring processes and improve operational accuracy by 40%</p>
+              <p>Designed and integrated RESTful APIs using a Factory Pattern abstraction layer, enabling standardized third-party integrations and scalable microservice communication</p>
+              <p>Secured microservices using JWT authentication, Kong API Gateway rate limiting, and RBAC, reducing unauthorized access by 50%</p>
+              <div class="tags"><span>Node.js</span><span>Microservices</span><span>REST APIs</span><span>Security</span></div>
+            </div>
+          </article>
+
+          <div class="timeline-divider reveal">Internships</div>
+
+          <article class="job reveal">
+            <div class="job-meta">
+              <span>Jan 2023 - Apr 2023</span>
+              <span>Karachi, Pakistan · Hybrid</span>
+            </div>
+            <div class="job-body">
+              <h3>MERN Stack Intern · Ping Up</h3>
+              <p>Boosted platform user retention by building an automated email notification microservice that triggers personalized engagement at key user milestones</p>
+              <p>Improved API reliability and data integrity by debugging production microservices and implementing request validation and input sanitization</p>
+              <p>Reduced mean time to resolution (MTTR) by collaborating with cross-functional teams to triage production incidents and deploy targeted fixes, improving release stability</p>
+              <div class="tags"><span>Node.js</span><span>Cron Jobs</span><span>Microservices</span></div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-meta">
+              <span>Nov 2022 - Jan 2023</span>
+              <span>Karachi, Pakistan · On-site</span>
+            </div>
+            <div class="job-body">
+              <h3>.NET Intern · Avanza Solutions</h3>
+              <p>Delivered a fully functional simulator for a national instant payment system by implementing RESTful APIs aligned with official documentation and interoperability protocols</p>
+              <p>Validated real-time P2P fund transfer flows by implementing end-to-end payment logic based on production-grade sequence diagrams, ensuring system reliability</p>
+              <p>Enhanced payment security by contributing to backend API design with certificate-based encryption and decryption mechanisms for secure transaction processing</p>
+              <div class="tags"><span>SQL</span><span>.NET Framework</span><span>REST APIs</span></div>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-meta">
+              <span>Jun 2022 - Aug 2022</span>
+              <span>Karachi, Pakistan · On-site</span>
+            </div>
+            <div class="job-body">
+              <h3>MERN Stack Intern · Codup</h3>
+              <p>Worked within a production MERN stack codebase, gaining hands-on experience with professional code structure, team conventions, and end-to-end development workflows</p>
+              <p>Contributed to the backend architecture of an HR Management System to streamline project allocation, resource planning, and workforce operations</p>
+              <p>Improved data consistency and cross-module communication by designing and integrating RESTful APIs for project and resource tracking workflows</p>
+              <div class="tags"><span>Node.js</span><span>MongoDB</span><span>REST APIs</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<section class="section contrast" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education</p>
+          <h2>Computer Science foundation, now focused on AI Engineering in Germany.</h2>
+        </div>
+        <div class="education-timeline">
+          <article class="education-card current reveal">
+            <div class="education-marker">Now</div>
+            <div>
+              <span>2026 - 2028 · Passau, Bavaria, Germany</span>
+              <h3>M.Sc. Artificial Intelligence Engineering</h3>
+              <p>University of Passau</p>
+              <p class="education-note">Current graduate focus on AI engineering, applied machine learning, intelligent systems, and building software that can use data and AI responsibly.</p>
+            </div>
+          </article>
+          <article class="education-card reveal">
+            <div class="education-marker">B.Sc.</div>
+            <div>
+              <span>2019 - 2023 · Karachi, Pakistan</span>
+              <h3>B.Sc. Computer Science</h3>
+              <p>FAST - National University of Computer and Emerging Sciences</p>
+              <p class="education-note">Built the core computer science base behind my engineering work: programming, databases, software design, algorithms, and backend development fundamentals.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects that show how I think, build, and ship.</h2>
+          <p>These projects combine software engineering discipline with modern AI workflows, from structured frontend delivery to document retrieval and autonomous email analysis.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured reveal">
+            <div class="project-visual spec">
+              <div class="visual-window">
+                <div class="window-top">
+                  <i></i><i></i><i></i>
+                </div>
+                <div class="spec-flow">
+                  <div class="flow-step active">
+                    <span>01</span>
+                    <strong>Contracts</strong>
+                    <small>behavior and rules</small>
+                  </div>
+                  <div class="flow-step">
+                    <span>02</span>
+                    <strong>Specifications</strong>
+                    <small>features and acceptance criteria</small>
+                  </div>
+                  <div class="flow-step">
+                    <span>02</span>
+                    <strong>Plan</strong>
+                    <small>technical details of the implementation</small>
+                  </div>
+                  <div class="flow-step">
+                    <span>04</span>
+                    <strong>Tasks</strong>
+                    <small>execution of the plan</small>
+                  </div>
+                  <div class="flow-result">
+                    <span>Output</span>
+                    <strong>Reviewable code</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+            <div class="project-kicker">Spec-driven development</div>
+            <h3>Static social media app built spec-first with an LLM coding agent</h3>
+            <p>
+              Designed and shipped a Next.js static social media app using a <b>GitHub-speckit</b> with GitHub Codex as the coding agent throughout.
+            </p>
+            <ul>
+              <li>Replaced ad-hoc prompting with structured artifacts: contracts defined behavior, specs clarified interfaces, and task files scoped each unit of work before any code was written.</li>
+              <li>Made LLM output reviewable and traceable by grounding every generation step in a written spec, not a freeform prompt.</li>
+              <li>Demonstrates developer workflow design and disciplined AI-assisted delivery as a repeatable engineering practice.</li>
             </ul>
-            <div class="job-tags">
-              <span>AI / LLMs</span><span>Node.js</span><span>React</span><span>Docker</span><span>Python</span>
+            <div class="tags">
+              <span>Next.js</span><span>GitHub Codex</span><span>Spec-driven</span><span>AI workflows</span>
             </div>
+            <a class="project-link" href="https://github.com/ali-muhammad-mz/spec-driven-development" target="_blank" rel="noopener noreferrer">View repository</a>
           </div>
-        </div>
+          </article>
 
-        <div class="job-card">
-          <div class="job-left">
-            <div class="job-date">Aug 2025 – Oct 2025</div>
-            <div class="job-loc">Pakistan · On-site</div>
-            <div class="job-badge both">AI + Software</div>
+          <div class="project-section-note reveal">
+            <span>AI systems with software fundamentals</span>
+            <p>Both projects below focus on automation: retrieval, extraction, reasoning, persistence, and clear system outputs.</p>
           </div>
-          <div class="job-right">
-            <div class="job-title-row">
-              <h3>Software Engineer</h3>
-              <span class="job-company">Avanza Solutions</span>
+
+          <article class="project-card reveal">
+            <div class="project-visual rag">
+              <div class="visual-window">
+                <div class="window-top">
+                  <i></i><i></i><i></i>
+                </div>
+                <div class="rag-ui">
+                  <div class="search-line">
+                    <span></span>
+                    Ask across lecture notes
+                  </div>
+                  <div class="doc-stack">
+                    <div><strong>ML Lecture 04</strong><small>similarity 0.91</small></div>
+                    <div><strong>Textbook Ch. 7</strong><small>similarity 0.87</small></div>
+                    <div><strong>Exam Notes</strong><small>similarity 0.82</small></div>
+                  </div>
+                  <div class="answer-card">
+                    <strong>Grounded answer</strong>
+                    <p>Retrieved passages are condensed into a contextual response.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <ul class="job-list">
-              <li>Built a custom MCP Server to expose internal financial data as structured tool calls for LLM agents, reducing AI integration time by 45%</li>
-              <li>Optimized SQL schemas and queries for financial transaction systems, reducing API response latency by 35%</li>
-              <li>Migrated a legacy ASP.NET escrow platform to React.js and Node.js using Clean Architecture, modernizing real estate financial workflows</li>
-            </ul>
-            <div class="job-tags">
-              <span>AI Automation</span><span>React.js</span><span>Node.js</span><span>SQL</span><span>Azure</span>
+            <div class="project-content">
+              <div class="project-kicker">Retrieval-Augmented Generation</div>
+              <h3>Educational PDF assistant for contextual student queries</h3>
+              <p>
+                Designed a RAG system over lecture notes and textbooks so students can query multiple educational PDFs and receive fast, context-aware answers grounded in their course material.
+              </p>
+              <div class="tags">
+                <span>RAG</span><span>Vector search</span><span>PDF parsing</span><span>LLMs</span>
+              </div>
+              <a class="project-link" href="https://github.com/ali-muhammad-mz/RAG-Pipeline-Educational-Docs" target="_blank" rel="noopener noreferrer">View repository</a>
             </div>
-          </div>
-        </div>
+          </article>
 
-        <div class="job-card">
-          <div class="job-left">
-            <div class="job-date">Jun 2023 – Jul 2025</div>
-            <div class="job-loc">Pakistan · On-site</div>
-            <div class="job-badge se">Software</div>
-          </div>
-          <div class="job-right">
-            <div class="job-title-row">
-              <h3>Software Engineer</h3>
-              <span class="job-company">Unikrew Solutions</span>
+          <article class="project-card reveal">
+            <div class="project-visual agent">
+              <div class="visual-window">
+                <div class="window-top">
+                  <i></i><i></i><i></i>
+                </div>
+                <div class="agent-ui">
+                  <div class="mail-row pending">
+                    <span></span>
+                    <div><strong>Client follow-up</strong><small>2 questions detected</small></div>
+                    <em>PENDING</em>
+                  </div>
+                  <div class="mail-row resolved">
+                    <span></span>
+                    <div><strong>Newsletter update</strong><small>summary stored</small></div>
+                    <em>RESOLVED</em>
+                  </div>
+                  <div class="decision-box">
+                    <strong>LLM decision</strong>
+                    <p>Summary, questions, and status saved to MongoDB.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <ul class="job-list">
-              <li>Engineered cron-based workflows in Node.js microservices to automate recurring processes and improve operational accuracy by 40%</li>
-              <li>Designed and integrated RESTful APIs using a Factory Pattern abstraction layer, enabling standardized third-party integrations and scalable microservice communication</li>
-              <li>Secured microservices using JWT authentication, Kong API Gateway rate limiting, and RBAC, reducing unauthorized access by 50%</li>
-            </ul>
-            <div class="job-tags">
-              <span>Node.js</span><span>Microservices</span><span>REST APIs</span><span>Security</span>
+            <div class="project-content">
+              <div class="project-kicker">LLM decision agent</div>
+              <h3>Email analyzer that summarizes, extracts questions, and decides response status</h3>
+              <p>
+                Built an agent that reads emails, writes concise summaries, detects direct and indirect questions, stores the result in MongoDB, and uses an LLM to decide whether the email needs a response.
+              </p>
+              <ul>
+                <li>If a response is needed, the email is marked PENDING.</li>
+                <li>If no response is needed, the email is marked RESOLVED.</li>
+                <li>The decision is made by the LLM instead of hard-coded rules.</li>
+              </ul>
+              <div class="tags">
+                <span>LLM agent</span><span>MongoDB</span><span>Email automation</span><span>Node.js</span>
+              </div>
+              <a class="project-link" href="https://github.com/ali-muhammad-mz/email_analyzer_agent" target="_blank" rel="noopener noreferrer">View repository</a>
             </div>
-          </div>
-        </div>
-
-        <div class="jobs-divider">Internships</div>
-
-        <div class="job-card">
-          <div class="job-left">
-            <div class="job-date">Jan 2023 – Apr 2023</div>
-            <div class="job-loc">Karachi, Pakistan · Hybrid</div>
-            <div class="job-badge se">Internship</div>
-          </div>
-          <div class="job-right">
-            <div class="job-title-row">
-              <h3>MERN Stack Intern</h3>
-              <span class="job-company">Ping Up</span>
-            </div>
-            <ul class="job-list">
-              <li>Boosted platform user retention by building an automated email notification microservice that triggers personalized engagement at key user milestones</li>
-              <li>Improved API reliability and data integrity by debugging production microservices and implementing request validation and input sanitization</li>
-              <li>Reduced mean time to resolution (MTTR) by collaborating with cross-functional teams to triage production incidents and deploy targeted fixes, improving release stability</li>
-            </ul>
-            <div class="job-tags">
-              <span>Node.js</span><span>Cron Jobs</span><span>Microservices</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="job-card">
-          <div class="job-left">
-            <div class="job-date">Nov 2022 – Jan 2023</div>
-            <div class="job-loc">Karachi, Pakistan · On-site</div>
-            <div class="job-badge se">Internship</div>
-          </div>
-          <div class="job-right">
-            <div class="job-title-row">
-              <h3>.NET Intern</h3>
-              <span class="job-company">Avanza Solutions</span>
-            </div>
-            <ul class="job-list">
-              <li>Delivered a fully functional simulator for a national instant payment system by implementing RESTful APIs aligned with official documentation and interoperability protocols</li>
-              <li>Validated real-time P2P fund transfer flows by implementing end-to-end payment logic based on production-grade sequence diagrams, ensuring system reliability</li>
-              <li>Enhanced payment security by contributing to backend API design with certificate-based encryption and decryption mechanisms for secure transaction processing</li>
-            </ul>
-            <div class="job-tags">
-              <span>SQL</span><span>.NET Framework</span><span>REST APIs</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="job-card">
-          <div class="job-left">
-            <div class="job-date">Jun 2022 – Aug 2022</div>
-            <div class="job-loc">Karachi, Pakistan · On-site</div>
-            <div class="job-badge se">Internship</div>
-          </div>
-          <div class="job-right">
-            <div class="job-title-row">
-              <h3>MERN Stack Intern</h3>
-              <span class="job-company">Codup</span>
-            </div>
-            <ul class="job-list">
-              <li>Worked within a production MERN stack codebase, gaining hands-on experience with professional code structure, team conventions, and end-to-end development workflows</li>
-              <li>Contributed to the backend architecture of an HR Management System to streamline project allocation, resource planning, and workforce operations</li>
-              <li>Improved data consistency and cross-module communication by designing and integrating RESTful APIs for project and resource tracking workflows</li>  
-            </ul>
-            <div class="job-tags">
-              <span>Node.js</span><span>MongoDB</span><span>REST APIs</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section class="section skills-section" id="skills">
-  <div class="container">
-    <h2 class="section-title">Skills</h2>
-    <p class="section-sub">Technologies and tools I work with</p>
-
-    <div class="skills-grid">
-
-      <!-- AI & ML -->
-      <div class="skill-block">
-        <h4>🤖 AI & Machine Learning</h4>
-        <div class="skill-pills">
-
-          <div class="skill">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg" />
-            <span>LLMs</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/langchain" />
-            <span>LangChain</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://cdn-icons-png.flaticon.com/512/8618/8618881.png" />
-            <span>Machine Learning</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/pytorch" />
-            <span>RAG Pipelines</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/chroma.svg" />
-            <span>Vector DBs</span>
-          </div>
-
+          </article>
         </div>
       </div>
+    </section>
 
-      <!-- Languages -->
-      <div class="skill-block">
-        <h4>💻 Languages & Frameworks</h4>
-        <div class="skill-pills">
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/python" />
-            <span>Python</span>
+<section class="capabilities" aria-label="Engineering focus">
+      <div class="container capability-grid">
+        <article class="capability reveal">
+          <div class="capability-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M9 3a3 3 0 0 0-3 3v.2A3.5 3.5 0 0 0 4.5 13H5a4 4 0 0 0 4 4v1a3 3 0 0 0 6 0v-1a4 4 0 0 0 4-4h.5A3.5 3.5 0 0 0 18 6.2V6a3 3 0 0 0-5.2-2A3 3 0 0 0 9 3Z" />
+              <path d="M8 9h8M8 13h8M12 7v8" />
+            </svg>
           </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/javascript" />
-            <span>JavaScript</span>
+          <h2>Applied AI Systems</h2>
+          <p>RAG pipelines, LLM agents, vector search, summaries, extraction, classification, and decision workflows shaped with practical software constraints.</p>
+        </article>
+        <article class="capability reveal">
+          <div class="capability-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <rect x="4" y="5" width="16" height="14" rx="3" />
+              <path d="M8 9h8M8 13h4M16 13h.01M8 17h8" />
+              <path d="M9 2v3M15 2v3M9 19v3M15 19v3" />
+            </svg>
           </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/typescript" />
-            <span>TypeScript</span>
+          <h2>Backend Engineering</h2>
+          <p>REST APIs, microservices, event-driven systems, scheduled workflows, SQL optimization, authentication, and maintainable service architecture.</p>
+        </article>
+        <article class="capability reveal">
+          <div class="capability-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M7 18a4 4 0 0 1-.8-7.9A5.5 5.5 0 0 1 17 8.5a4.5 4.5 0 0 1 .5 9H7Z" />
+              <path d="M9 14h6M12 11v6" />
+            </svg>
           </div>
+          <h2>Cloud & Delivery</h2>
+          <p>Docker, AWS, Azure, CI/CD habits, system reliability, and clean handoff from implementation to deployment-ready software.</p>
+        </article>
+      </div>
+    </section>
 
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/nodedotjs" />
-            <span>Node.js</span>
+<section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical toolkit</p>
+          <h2>Comfortable across backend, cloud, frontend, and Agentic AI development work.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>AI & Data</h3>
+            <div class="skill-list">
+              <span>LLMs</span><span>RAG pipelines</span><span>LangChain</span><span>Vector databases</span><span>Machine learning</span><span>Prompt workflows</span>
+            </div>
           </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/react" />
-            <span>React</span>
+          <div class="skill-group reveal">
+            <h3>Languages & Frameworks</h3>
+            <div class="skill-list">
+              <span>Python</span><span>JavaScript</span><span>TypeScript</span><span>Node.js</span><span>React</span><span>Next.js</span><span>C#</span><span>.NET</span><span>Spring Boot</span>
+            </div>
           </div>
-
-          <div class="skill">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" />
-            <span>C#</span>
+          <div class="skill-group reveal">
+            <h3>Cloud, Databases & Tools</h3>
+            <div class="skill-list">
+              <span>AWS</span><span>Azure</span><span>Docker</span><span>MongoDB</span><span>PostgreSQL</span><span>SQL</span><span>Git</span><span>RabbitMQ</span>
+            </div>
           </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/dotnet" />
-            <span>.NET</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/springboot" />
-            <span>Spring Boot</span>
-          </div>
-
         </div>
       </div>
+    </section>
 
-      <!-- Cloud -->
-      <div class="skill-block">
-        <h4>☁️ Cloud & Databases</h4>
-        <div class="skill-pills">
-
-          <div class="skill">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/3840px-Git_icon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" />
-            <span>Git</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://www.pngmart.com/files/23/Aws-Logo-PNG.png" />
-            <span>AWS</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/docker" />
-            <span>Docker</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/postgresql" />
-            <span>PostgreSQL</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/azure-sql-db.webp" />
-            <span>SQL</span>
-          </div>
-
-          <div class="skill">
-            <img src="https://cdn.simpleicons.org/mongodb" />
-            <span>MongoDB</span>
-          </div>
-
+<section class="section" id="certifications">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Certifications</p>
+          <h2>Focused learning across AI, cloud, data, and backend skills.</h2>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <!-- EDUCATION -->
-  <section class="section" id="education">
-    <div class="container">
-      <h2 class="section-title">Education</h2>
-      <p class="section-sub">Academic background</p>
-
-      <div class="edu-list">
-
-        <div class="edu-item">
-          <div class="edu-icon">🎓</div>
-          <div class="edu-body">
-            <div class="edu-years">2026 – 2028</div>
-            <h3>M.Sc. Artificial Intelligence Engineering</h3>
-            <div class="edu-school">University of Passau · Passau, Bavaria, Germany</div>
-          </div>
-        </div>
-
-        <div class="edu-item">
-          <div class="edu-icon">🎓</div>
-          <div class="edu-body">
-            <div class="edu-years">2019 – 2023</div>
-            <h3>B.Sc. Computer Science</h3>
-            <div class="edu-school">FAST – National University of Computer and Emerging Sciences · Karachi, Pakistan</div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- CERTIFICATION -->
-  <section class="section cert-section" id="certification">
-    <div class="container">
-      <h2 class="section-title">Certification</h2>
-      <p class="section-sub">Continued learning and professional development</p>
-
-      <div class="edu-list">
-
-        <div class="edu-item cert">
-          <div class="edu-icon">📜</div>
-          <div class="edu-body">
-            <div class="edu-years">January 2026</div>
+        <div class="credential-grid">
+          <article class="credential-card reveal">
+            <span>Amazon Web Services</span>
+            <h3>AWS Academy Graduate - AWS Cloud Foundations</h3>
+            <p>Cloud fundamentals covering AWS services, architecture, security, and deployment concepts.</p>
+          </article>
+          <article class="credential-card reveal">
+            <span>DeepLearning.AI</span>
             <h3>Agentic AI Certification</h3>
-            <div class="edu-school">Andrew NG · DeepLearning.AI</div>
-            <!-- <p class="edu-note">Hands-on training in building AI agents, multi-agent workflows, and integrating AI tools into live systems.</p> -->
-          </div>
-        </div>
-
-        <div class="edu-item cert">
-          <div class="edu-icon">📜</div>
-          <div class="edu-body">
-            <div class="edu-years">Amazon Web Services</div>
-            <h3>AWS Academy Graduate — AWS Cloud Foundations</h3>
-            <div class="edu-school">Amazon Web Services (AWS)</div>
-          </div>
-        </div>
-
-        <div class="edu-item cert">
-          <div class="edu-icon">📜</div>
-          <div class="edu-body">
-            <div class="edu-years">Kaggle</div>
-            <h3>Pandas</h3>
-            <div class="edu-school">Kaggle</div>
-          </div>
-        </div>
-
-        <div class="edu-item cert">
-          <div class="edu-icon">📜</div>
-          <div class="edu-body">
-            <div class="edu-years">Kaggle</div>
-            <h3>Python for Data Science</h3>
-            <div class="edu-school">Kaggle</div>
-          </div>
-        </div>
-
-        <div class="edu-item cert">
-          <div class="edu-icon">📜</div>
-          <div class="edu-body">
-            <div class="edu-years">DataCamp</div>
-            <h3>Intermediate Python</h3>
-            <div class="edu-school">DataCamp</div>
-          </div>
-        </div>
-
-        <div class="edu-item cert">
-          <div class="edu-icon">📜</div>
-          <div class="edu-body">
-            <div class="edu-years">DataCamp</div>
-            <h3>Intermediate SQL Queries</h3>
-            <div class="edu-school">DataCamp</div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- LANGUAGES -->
-  <section class="section lang-section" id="language">
-    <div class="container">
-      <h2 class="section-title">Languages</h2>
-      <p class="section-sub">Spoken and written communication</p>
-
-      <div class="lang-grid">
-
-        <div class="lang-card">
-          <div class="lang-flag">🇬🇧</div>
-          <div class="lang-body">
-            <div class="lang-name">English</div>
-            <div class="lang-bar-wrap"><div class="lang-bar" style="width: 80%"></div></div>
-            <div class="lang-cefr">C1 — Advanced</div>
-          </div>
-        </div>
-
-        <div class="lang-card">
-          <div class="lang-flag">🇩🇪</div>
-          <div class="lang-body">
-            <div class="lang-name">Deutsch</div>
-            <div class="lang-bar-wrap"><div class="lang-bar" style="width: 20%"></div></div>
-            <div class="lang-cefr">A2 — Elementary</div>
-          </div>
-        </div>
-
-        
-
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="contact-section" id="contact">
-    <div class="container">
-      <div class="contact-box">
-        <h2>Let's Connect</h2>
-        <p>I'm open to full-time roles, collaborations, or just a conversation.<br>Feel free to reach out.</p>
-        <div class="contact-links">
-          <a href="mailto:ali.moaiz001@gmail.com" class="contact-btn">
-            <span>✉</span> ali.moaiz001@gmail.com
-          </a>
-          <a href="https://www.linkedin.com/in/ali-muhammad-665451374" target="_blank" class="contact-btn">
-            <span>in</span> LinkedIn
-          </a>
-          <a href="https://github.com/ali-muhammad-mz" target="_blank" class="contact-btn">
-            <span>⌥</span> GitHub
-          </a>
+            <p>Hands-on learning around AI agents, multi-step LLM workflows, and tool-using systems.</p>
+          </article>
+          <article class="credential-card reveal">
+            <span>Kaggle</span>
+            <h3>Python for Data Science & Pandas</h3>
+            <p>Applied Python, data manipulation, tabular analysis, and practical notebook workflows.</p>
+          </article>
+          <article class="credential-card reveal">
+            <span>DataCamp</span>
+            <h3>Intermediate Python & SQL Queries</h3>
+            <p>Programming and database querying practice for data-heavy product and backend work.</p>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- FOOTER -->
+<section class="section contrast" id="languages">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Languages</p>
+          <h2>Clear communication for international engineering teams.</h2>
+        </div>
+        <div class="language-grid">
+          <article class="language-card reveal">
+            <div>
+              <span>English</span>
+              <h3>C1 · Advanced</h3>
+            </div>
+            <div class="language-meter" aria-hidden="true"><span style="width: 86%"></span></div>
+          </article>
+          <article class="language-card reveal">
+            <div>
+              <span>German</span>
+              <h3>A2 · Elementary</h3>
+            </div>
+            <div class="language-meter" aria-hidden="true"><span style="width: 32%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<section class="contact" id="contact">
+      <div class="container contact-inner reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let us build useful software and AI systems.</h2>
+          <p>I am open to software engineering, backend, full-stack, AI engineering, and LLM application roles.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:ali.moaiz001@gmail.com">ali.moaiz001@gmail.com</a>
+          <a class="btn btn-secondary" href="https://github.com/ali-muhammad-mz" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/ali-muhammad-665451374" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </main>
+
   <footer class="footer">
     <div class="container footer-inner">
-      <div>Ali Muhammad · AI & Software Engineer</div>
-      <div>Bavaria, Germany · 2026</div>
+      <span>Ali Muhammad · Software & AI Engineer</span>
+      <span>Bavaria, Germany · 2026</span>
     </div>
   </footer>
 
   <script>
     const nav = document.querySelector('.nav');
-    window.addEventListener('scroll', () => {
-      nav.classList.toggle('scrolled', window.scrollY > 40);
-    });
-
     const hamburger = document.getElementById('hamburger');
     const navLinks = document.querySelector('.nav-links');
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('open');
-      hamburger.classList.toggle('active');
+
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 24);
     });
 
-    const els = document.querySelectorAll('.job-card, .what-card, .skill-block, .edu-item, .stat-card');
-    const obs = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
-    }, { threshold: 0.08 });
-    els.forEach(el => obs.observe(el));
-  </script>
+    hamburger.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active', isOpen);
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+    });
 
+    navLinks.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+  </script>
 </body>
 </html>
